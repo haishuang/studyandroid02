@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_1"
+        android:title="第一项"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menu_2"
+        android:title="第二项"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menu_3"
+        android:title="第三项"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/menu_4"
+        android:title="第四项"
+        android:orderInCategory="1"
+        app:showAsAction="withText"
+        />
+</menu>
+<!--
+1.app:showAsAction 为显示的方式
+    显示方式分类：
+    always：这个值会使菜单项一直显示在Action Bar上。
+　　ifRoom：如果有足够的空间，这个值会使菜单项显示在Action Bar上。
+　　never：这个值使菜单项永远都不出现在Action Bar上。
+　　withText：这个值使菜单项和它的图标，菜单文本一起显示。
+
+2.orderInCategory:
+表明摆放的顺序，不一定从0还是计算，但必须大于等于0，数值小的位于前
+
+-->

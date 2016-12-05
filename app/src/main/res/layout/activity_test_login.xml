@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_login_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login_out"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/btn_login_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login_in"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_login_in"
+        android:layout_marginBottom="145dp"
+        android:text="退出登陆" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="未登录"
+        android:textSize="18sp" />
+</RelativeLayout>

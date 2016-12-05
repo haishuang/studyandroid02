@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_lineate_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体加粗"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_lineate_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体中划线"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_lineate_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体下划线"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/tv_color_neative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体多种颜色一"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_color_html"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体多种颜色二"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体大小不一"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_flag_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体设置上标"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_flag_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体设置下标"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_scale_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="字体设置下标"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_cart_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_cart_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的购物车"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <com.hais.studyandroid02.widget.HaisListview
+        android:id="@+id/hlv_cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_cart_top"
+        android:divider="#ffffff"
+        android:dividerHeight="8dp">
+
+    </com.hais.studyandroid02.widget.HaisListview>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/iv_all_checked"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="11dp"
+            android:paddingRight="9dp"
+            android:src="@drawable/cart_unselected" />
+
+        <TextView
+            android:id="@+id/tv_all_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_all_checked"
+            android:gravity="center"
+            android:text="全选"
+            android:textColor="#21cdff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_jiesaun"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#21cdff"
+            android:gravity="center"
+            android:text="去结算"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_total_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/tv_jiesaun"
+            android:layout_toRightOf="@+id/tv_all_checked"
+            android:gravity="center"
+            android:text="共计：￥0.00"
+            android:textColor="#21cdff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

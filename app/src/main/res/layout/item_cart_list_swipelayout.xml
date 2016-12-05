@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_item_top"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#ffaeb6b6" />
+
+        <ImageView
+            android:id="@+id/iv_all_checked"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/divider"
+            android:paddingLeft="11dp"
+            android:paddingRight="9dp"
+            android:src="@drawable/cart_unselected" />
+
+        <ImageView
+            android:id="@+id/iv_seller_logo"
+            android:layout_width="14dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_all_checked"
+            android:layout_alignTop="@+id/iv_all_checked"
+            android:src="@drawable/seller_logo" />
+
+        <TextView
+            android:id="@+id/tv_seller_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/iv_seller_logo"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="10dp"
+            android:text="商家名称1"
+            android:layout_alignTop="@+id/iv_all_checked"
+            android:textColor="#323232"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_seller_go"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tv_seller_name"
+            android:layout_alignTop="@+id/iv_all_checked"
+            android:src="@drawable/seller_go" />
+    </RelativeLayout>
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/rl_item_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_below="@+id/rl_item_top">
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+            android:src="@drawable/trash" />
+
+        <RelativeLayout
+            android:id="@+id/rl_item_item"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="#f2f2f2">
+
+            <ImageView
+                android:id="@+id/iv_checked"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:paddingLeft="11dp"
+                android:paddingRight="9dp"
+                android:src="@drawable/cart_unselected" />
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/iv_checked"
+                android:src="@drawable/goods_image" />
+
+            <TextView
+                android:id="@+id/tv_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_image"
+                android:paddingBottom="3dp"
+                android:paddingLeft="13dp"
+                android:paddingTop="6dp"
+                android:text="番茄牛肉"
+                android:textColor="#323232"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_goods_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_goods_name"
+                android:layout_below="@+id/tv_goods_name"
+                android:paddingBottom="3dp"
+                android:paddingLeft="13dp"
+                android:paddingTop="3dp"
+                android:text="红色+S码"
+                android:textColor="#a6a6a6"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_goods_sale_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_goods_name"
+                android:layout_below="@+id/tv_goods_details"
+                android:paddingBottom="5dp"
+                android:paddingLeft="13dp"
+                android:paddingTop="2dp"
+                android:text="￥6888"
+                android:textColor="#d0343c"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_num"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="11dp"
+                android:background="#d1d6dd"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+    </com.daimajia.swipe.SwipeLayout>
+</RelativeLayout>

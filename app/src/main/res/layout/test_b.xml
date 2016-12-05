@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llt_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1BA4CB"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="lights on"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="lights off"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_tip_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="lights on 0 hrs and 0 munites later"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+
+
+
+</LinearLayout>

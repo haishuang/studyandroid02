@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColoredRatingBar">
+        <attr name="indicator" format="boolean" />
+        <attr name="rating" format="float" />
+        <attr name="type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="small" value="1" />
+        </attr>
+        <attr name="coloredRatingBarStyle" format="reference" />
+        <!-- Indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleIndicator" format="reference" />
+        <!-- Small RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmall" format="reference" />
+        <!-- Small indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmallIndicator" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="HaisRatingBar">
+        <attr name="hindicator" format="boolean" />
+        <attr name="hrating" format="float" />
+        <attr name="hstartnums" format="integer" />
+        <attr name="space" format="integer" />
+        <attr name="htype" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="small" value="1" />
+        </attr>
+        <attr name="starBackground" format="reference|color" />
+        <attr name="starLight" format="reference|color" />
+        <attr name="hcoloredRatingBarStyle" format="reference" />
+        <!-- Indicator RatingBar style. -->
+        <attr name="hcoloredRatingBarStyleIndicator" format="reference" />
+        <!-- Small RatingBar style. -->
+        <attr name="hcoloredRatingBarStyleSmall" format="reference" />
+        <!-- Small indicator RatingBar style. -->
+        <attr name="hcoloredRatingBarStyleSmallIndicator" format="reference" />
+    </declare-styleable>
+</resources><!--
+
+
+1、周小川：中国经济杠杆率偏高,鼓励国民储蓄参与股本融资,降低杠杆率;
+
+2、猪价直逼历史高点,业内建议提高风险意识合理补栏;
+
+3、湄公河流域遭遇百年大旱:中国开闸放水,越南民众称充满善意;
+
+4、星巴克被指控咖啡分量不足,索赔500万美元;
+
+5、北京：号贩子团伙组织专人网上抢号加价倒卖;
+
+6、走私706根象牙,华人在坦桑尼亚被开出3.26亿罚单;
+
+7、中央军委政治工作部歌舞团亮相 前身为总政歌舞团;
+
+8、日将向美移交331公斤核材料 够造50枚原子弹;
+
+9、外媒称朝鲜居民期待制裁继续：这样就能吃到高档鱼;
+
+10、网络贷款抢滩校园:1分钟申请,10分钟审核,1天放款;
+
+11、鼓励错峰出游，山西晋中下月起实行“2.5天周末”弹性作息;
+
+12、中国研发首个神经网络处理器,刷脸支付或成现实;
+
+-->

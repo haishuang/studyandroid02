@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_cart_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_cart_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的购物车"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <com.hais.studyandroid02.widget.HaisListview
+        android:id="@+id/hlv_cart_list"
+        android:layout_below="@+id/ll_cart_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0.5dp"
+        android:divider="#ffaeb6b6">
+
+    </com.hais.studyandroid02.widget.HaisListview>
+</RelativeLayout>

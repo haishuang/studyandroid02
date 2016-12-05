@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView android:text="这是一个关于SeekBar的空间"
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/seekbar_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <com.hais.studyandroid02.widget.RangeSeekBar
+        android:id="@+id/seekbar_range"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
+    <!--<ImageView-->
+    <!--android:background="#121332"-->
+    <!--android:id="@+id/iv_test"-->
+    <!--android:src="@mipmap/ic_launcher"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp" />-->

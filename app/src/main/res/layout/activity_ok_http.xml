@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_ok_http"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试okhttp" />
+
+    <ListView
+        android:id="@+id/lv_ok_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ok_http"
+        android:divider="#ffa4b6a7"
+        android:dividerHeight="1dp"></ListView>
+
+</RelativeLayout>

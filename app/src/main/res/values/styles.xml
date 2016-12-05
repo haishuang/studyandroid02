@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="coloredRatingBarStyle">
+        <item name="indicator">false</item>
+        <item name="type">normal</item>
+    </style>
+
+    <style name="coloredRatingBarStyleIndicator">
+        <item name="indicator">true</item>
+        <item name="type">normal</item>
+    </style>
+
+    <style name="coloredRatingBarStyleSmall">
+        <item name="indicator">false</item>
+        <item name="type">small</item>
+    </style>
+
+    <style name="coloredRatingBarStyleSmallIndicator">
+        <item name="indicator">true</item>
+        <item name="type">small</item>
+    </style>
+
+    <!--当圆圈进度条无法全部显示或者显示多个时，可以通过调整下面的layout_width和layout_height-->
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">33dip</item>
+        <item name="android:layout_height">33dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="immersion_status">
+        <item name="android:clipToPadding">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+    </style>
+</resources>

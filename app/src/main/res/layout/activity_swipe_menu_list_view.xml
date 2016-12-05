@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/tv_swipe_menu_listview"
+        android:text="这是一个可以侧滑item进行删除相关操作的demo，其中为了更好的体验，将控件中的一个拦截事件做了修改"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.hais.swipmenulistview.SwipeMenuListView
+        android:id="@+id/smlv_swipe_menu_listview"
+        android:layout_below="@+id/tv_swipe_menu_listview"
+        android:divider="#565656"
+        android:dividerHeight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
